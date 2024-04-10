@@ -2,31 +2,53 @@
 a simple implementation of error detection using Hamming code 
 
 used for single bit error detection , the input bits and the parity bits are arranged as follows 
+
 <!DOCTYPE html>
 <html lang="en">
 <body>
-
 
 <h2>Hamming Code Mapping</h2>
 
 <table>
     <tr>
-        <th>ip[3]</th>
-        <th>ip[2]</th>
-        <th>ip[1]</th>
-        <th>p3</th>
-        <th>ip[0]</th>
-        <th>p2</th>
-        <th>p1</th>
+        <th>Position</th>
+        <th>Data Bit</th>
+        <th>Bit Number</th>
     </tr>
     <tr>
+        <td>ip[3]</td>
         <td>d3</td>
+        <td>bit6</td>
+    </tr>
+    <tr>
+        <td>ip[2]</td>
         <td>d2</td>
+        <td>bit5</td>
+    </tr>
+    <tr>
+        <td>ip[1]</td>
         <td>d1</td>
-        <td>&nbsp;</td>
+        <td>bit4</td>
+    </tr>
+    <tr>
+        <td>p3</td>
+        <td></td>
+        <td>bit3</td>
+    </tr>
+    <tr>
+        <td>ip[0]</td>
         <td>d0</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
+        <td>bit2</td>
+    </tr>
+    <tr>
+        <td>p2</td>
+        <td></td>
+        <td>bit1</td>
+    </tr>
+    <tr>
+        <td>p1</td>
+        <td></td>
+        <td>bit0</td>
     </tr>
 </table>
 
