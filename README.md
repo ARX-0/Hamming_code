@@ -12,48 +12,39 @@ used for single bit error detection , the input bits and the parity bits are arr
 <table>
     <tr>
         <th>Position</th>
-        <th>Data Bit</th>
-        <th>Bit Number</th>
-    </tr>
-    <tr>
         <td>ip[3]</td>
-        <td>d3</td>
-        <td>bit6</td>
-    </tr>
-    <tr>
         <td>ip[2]</td>
-        <td>d2</td>
-        <td>bit5</td>
-    </tr>
-    <tr>
         <td>ip[1]</td>
-        <td>d1</td>
-        <td>bit4</td>
-    </tr>
-    <tr>
         <td>p3</td>
-        <td></td>
-        <td>bit3</td>
-    </tr>
-    <tr>
         <td>ip[0]</td>
-        <td>d0</td>
-        <td>bit2</td>
-    </tr>
-    <tr>
         <td>p2</td>
-        <td></td>
-        <td>bit1</td>
+        <td>p1</td>
     </tr>
     <tr>
-        <td>p1</td>
+        <th>Data Bit</th>
+        <td>d3</td>
+        <td>d2</td>
+        <td>d1</td>
         <td></td>
+        <td>d0</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Bit Number</th>
+        <td>bit6</td>
+        <td>bit5</td>
+        <td>bit4</td>
+        <td>bit3</td>
+        <td>bit2</td>
+        <td>bit1</td>
         <td>bit0</td>
     </tr>
 </table>
 
 </body>
 </html>
+
 
 
 p1 is decided based of ip[0] , ip[1] , ip[3] by (EVEN PARITY XOR)
